@@ -10243,4 +10243,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
  styles: [
     {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
     {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-    {elementType: '
+    {elementType: ';var style = new ol.style.Style({
+            fill: new ol.style.Fill({})
+        });
+

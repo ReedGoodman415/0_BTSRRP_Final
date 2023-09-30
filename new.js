@@ -21,4 +21,6 @@ var map = new ol.Map({
     })
    });
    
-   map.addLayer(vectorLayer);
+   map.addLayer(vectorLayer);var style = new ol.style.Style(
+    fill, new ol.style.Fill());
+
