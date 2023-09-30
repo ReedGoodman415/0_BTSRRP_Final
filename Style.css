@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
- :root {
+:root {
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -32,21 +32,19 @@
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  }
-  
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+
   *,
   *::before,
   *::after {
     box-sizing: border-box;
-  }
-  
-  html {
+}
+html {
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
+}
   
   article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
@@ -56,9 +54,9 @@
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: ;
     line-height: 1.5;
-    color: #bcbcbc;
+    color: #bbebe1;
     text-align: left;
     background-color: #0d4a48;
   }
@@ -169,7 +167,7 @@
   }
   
   a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     background-color: transparent;
   }
@@ -344,6 +342,7 @@
   [type="search"] {
     outline-offset: -2px;
     -webkit-appearance: none;
+    appearance: none;
   }
   
   [type="search"]::-webkit-search-decoration {
@@ -436,7 +435,7 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgb(255, 255, 255);
   }
   
   small,
@@ -447,7 +446,7 @@
   
   mark,
   .mark {
-    padding: 0.2em;
+    padding: 1.5em;
     background-color: #818181;
   }
   
@@ -482,7 +481,7 @@
   .blockquote-footer {
     display: block;
     font-size: 80%;
-    color: #6c757d;
+    color: #0fd2b1;
   }
   
   .blockquote-footer::before {
@@ -496,7 +495,7 @@
   
   .img-thumbnail {
     padding: 0.25rem;
-    background-color: #fff;
+    background-color: #ffffff00;
     border: 0px solid #dee2e6;
     border-radius: 0.25rem;
     max-width: 100%;
@@ -508,13 +507,13 @@
   }
   
   .figure-img {
-    margin-bottom: 0.5rem;
+    margin-bottom: 2.5rem;
     line-height: 1;
   }
   
   .figure-caption {
     font-size: 90%;
-    color: #6c757d;
+    color: #ffffff;
   }
   
   code {
@@ -544,7 +543,7 @@
   pre {
     display: block;
     font-size: 87.5%;
-    color: #212529;
+    color: #b3b6b8;
   }
   
   pre code {
