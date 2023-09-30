@@ -58,7 +58,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #ffffff;
+    color: #bcbcbc;
     text-align: left;
     background-color: #0d4a48;
   }
@@ -71,22 +71,14 @@
 /* Add the attribute tabindex="-1" to the element */
 /* This will allow the element to be programmatically focused, but not by clicking or tabbing */
 /* The :focus:not(:focus-visible) pseudo-class will apply the styles only when the element is focused programmatically */
-.map[.card-body="-1"]:focus:not(:focus-visible) {
+<element class= map[.card-body= "-1"]:focus:not(:focus-visible) {
     /* Your CSS styles here */
 }
+
 .card-body:focus:not(:focus-visible) {
     outline: 2px !important;
 }
-var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
-    center: bayArea,
-    styles: [
-        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-        {elementType: 'labels.icon', stylers: [{visibility: 'off'}]}
-    ]
-});
+
 {
     outline: 0 !important;
 }
@@ -456,7 +448,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
   mark,
   .mark {
     padding: 0.2em;
-    background-color: #fcf8e3;
+    background-color: #818181;
   }
   
   .list-unstyled {
@@ -538,7 +530,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
   kbd {
     padding: 0.2rem 0.4rem;
     font-size: 87.5%;
-    color: #353535;
+    color: #000000;
     background-color: #212529;
     border-radius: 0.2rem;
   }
@@ -1731,7 +1723,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
   }
   
   .table tbody + tbody {
-    border-top: 2px solid #dee2e6;
+    border-top: 2px solid #555555;
   }
   
   .table-sm th,
@@ -1794,7 +1786,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
   .table-secondary,
   .table-secondary > th,
   .table-secondary > td {
-    background-color: #5a5a5a;
+    background-color: #ffffff;
   }
   
   .table-secondary th,
@@ -1854,7 +1846,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
   
   .table-hover .table-info:hover > td,
   .table-hover .table-info:hover > th {
-    background-color: #abdde5;
+    background-color: #ffffff;
   }
   
   .table-warning,
