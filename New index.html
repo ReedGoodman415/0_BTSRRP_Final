@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    html
+<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.13.0/build/ol.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,12 +35,10 @@
         </form>
       </div>
     </nav>
+  <id="map" style="width: 100%; height: 400px;"></div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcVwuMjItcs5jpmYEiKqFZUfTcNMF2J4A&callback=initMap"></script>
     <header>
       <div class="jumbotron" >
-        </div>id="map" style="width: 100%; height: 400px;"></div>
-        html
-        html
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcVwuMjItcs5jpmYEiKqFZUfTcNMF2J4A&callback=initMap"></script>
 <div class="container">
           <div class="row">
             <div class="col-12">
@@ -76,6 +76,7 @@
             <h3>More than soaps and other liquids</h3>
             <p>All sorts of dry goods, and sundaries are available in bulk, so you can bring your own containers over and over.</p>
           </div>
+          <div id="map" class="map"></div>
         <div class="row">
           <div class="col-sm-12 mt-4 mb-2 text-center">
             <h2>TESTIMONIALS</h2>
