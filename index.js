@@ -10221,4 +10221,12 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-/*# sourceMappingURL=bootstrap.css.map */
+javascript
+javascript
+var map = new google.maps.Map(document.getElementById('map'), {
+ zoom: 12,
+ center: bayArea,
+ styles: [
+    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+    {elementType: '
