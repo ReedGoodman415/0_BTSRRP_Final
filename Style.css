@@ -24,7 +24,7 @@
     --info: #17a2b8;
     --warning: #ffc107;
     --danger: #dc3545;
-    --light: #f8f9fa;
+    --light: #0a6a54;
     --dark: #343a40;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -177,13 +177,13 @@ var map = new google.maps.Map(document.getElementById('map'), {
   }
   
   a {
-    color: #5e5e5e;
+    color: #000000;
     text-decoration: none;
     background-color: transparent;
   }
   
   a:hover {
-    color: #0056b3;
+    color: #969696;
     text-decoration: underline;
   }
   
@@ -538,7 +538,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
   kbd {
     padding: 0.2rem 0.4rem;
     font-size: 87.5%;
-    color: #fff;
+    color: #353535;
     background-color: #212529;
     border-radius: 0.2rem;
   }
