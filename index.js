@@ -10234,14 +10234,7 @@ function initMap() {
     map: map
  });
 }
-javascript
-var map = new google.maps.Map(document.getElementById('map'), {
- zoom: 12,
- center: bayArea,
- styles: [
-    {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-    {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-    {elementType: '
+
 javascript
 javascript
 var map = new google.maps.Map(document.getElementById('map'), {
