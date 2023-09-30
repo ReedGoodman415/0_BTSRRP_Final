@@ -58,14 +58,38 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #ffffff;
     text-align: left;
-    background-color: #147e67;
+    background-color: #0d4a48;
   }
   
-<element> tabindex{}="-1":focus:not(:focus-visible) {
+/* Replace <element> with the element you want to target */
+/* Add the attribute tabindex="-1" to the element */
+/* This will allow the element to be programmatically focused, but not by clicking or tabbing */
+/* The :focus:not(:focus-visible) pseudo-class will apply the styles only when the element is focused programmatically */
+/* Replace <element> with the element you want to target */
+/* Add the attribute tabindex="-1" to the element */
+/* This will allow the element to be programmatically focused, but not by clicking or tabbing */
+/* The :focus:not(:focus-visible) pseudo-class will apply the styles only when the element is focused programmatically */
+.map[.card-body="-1"]:focus:not(:focus-visible) {
+    /* Your CSS styles here */
+}
+.card-body:focus:not(:focus-visible) {
+    outline: 2px !important;
+}
+var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: bayArea,
+    styles: [
+        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+        {elementType: 'labels.icon', stylers: [{visibility: 'off'}]}
+    ]
+});
+{
     outline: 0 !important;
-  }
+}
   
   hr {
     box-sizing: content-box;
@@ -153,7 +177,7 @@
   }
   
   a {
-    color: #007bff;
+    color: #5e5e5e;
     text-decoration: none;
     background-color: transparent;
   }
@@ -208,7 +232,7 @@
   caption {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    color: #6c757d;
+    color: #000000;
     text-align: left;
     caption-side: bottom;
   }
@@ -261,6 +285,7 @@
   [type="reset"],
   [type="submit"] {
     -webkit-appearance: button;
+    appearance: button;
   }
   
   button:not(:disabled),
@@ -480,7 +505,7 @@
   .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
-    border: 1px solid #dee2e6;
+    border: 0px solid #dee2e6;
     border-radius: 0.25rem;
     max-width: 100%;
     height: auto;
@@ -1763,29 +1788,29 @@
   
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #9fcdff;
+    background-color: #25c7a9;
   }
   
   .table-secondary,
   .table-secondary > th,
   .table-secondary > td {
-    background-color: #d6d8db;
+    background-color: #5a5a5a;
   }
   
   .table-secondary th,
   .table-secondary td,
   .table-secondary thead th,
   .table-secondary tbody + tbody {
-    border-color: #b3b7bb;
+    border-color: #000000;
   }
   
   .table-hover .table-secondary:hover {
-    background-color: #c8cbcf;
+    background-color: #331de1;
   }
   
   .table-hover .table-secondary:hover > td,
   .table-hover .table-secondary:hover > th {
-    background-color: #c8cbcf;
+    background-color: #ffffff;
   }
   
   .table-success,
@@ -1835,7 +1860,7 @@
   .table-warning,
   .table-warning > th,
   .table-warning > td {
-    background-color: #ffeeba;
+    background-color: #0f7364;
   }
   
   .table-warning th,
@@ -1857,7 +1882,7 @@
   .table-danger,
   .table-danger > th,
   .table-danger > td {
-    background-color: #f5c6cb;
+    background-color: #505050;
   }
   
   .table-danger th,
@@ -2039,9 +2064,9 @@
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: #494949;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid #000000;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
@@ -2607,7 +2632,7 @@
   
   .btn-secondary:focus, .btn-secondary.focus {
     color: #fff;
-    background-color: #5a6268;
+    background-color: #d0d2d4;
     border-color: #545b62;
     box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
   }
@@ -2853,13 +2878,13 @@
   }
   
   .btn-outline-primary {
-    color: #007bff;
-    border-color: #007bff;
+    color: #00ccff;
+    border-color: #095a52;
   }
   
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #007bff;
+    background-color: #095a52;
     border-color: #007bff;
   }
   
@@ -3690,7 +3715,7 @@
     color: #495057;
     text-align: center;
     white-space: nowrap;
-    background-color: #e9ecef;
+    background-color: #17629b;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
   }
@@ -4713,7 +4738,7 @@
   }
   
   .navbar-dark .navbar-text {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
   }
   
   .navbar-dark .navbar-text a {
