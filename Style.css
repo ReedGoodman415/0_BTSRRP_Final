@@ -88,8 +88,8 @@ html {
   }
   
   h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-top: 4;
+    margin-bottom: 2rem;
   }
   
   p {
@@ -258,7 +258,7 @@ html {
   
   button,
   input {
-    overflow: visible;
+    overflow: none;
   }
   
   button,
@@ -301,7 +301,7 @@ html {
   
   input[type="date"],
   input[type="time"],
-  input[type="datetime-local"],
+  input[type="date time-local"],
   input[type="month"] {
     -webkit-appearance: listbox;
   }
@@ -10237,4 +10237,3 @@ html {
       border-color: #dee2e6;
     }
   }
-  /*# sourceMappingURL=bootstrap.css.map */

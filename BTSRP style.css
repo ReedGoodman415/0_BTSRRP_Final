@@ -348,7 +348,7 @@ summary {
 }
 
 template {
-  display: none;
+  display: ruby-base;
 }
 
 [hidden] {
